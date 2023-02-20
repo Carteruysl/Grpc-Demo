@@ -24,3 +24,5 @@ Mac:https://hoohoo.top/blog/mac-linux-windows-install-protocol-buffer-protobuf-c
 bloomrpc GUI:https://github.com/bloomrpc/bloomrpc/releases
 
 gRPC 是什麼？以 Golang 進行示範與說明 :https://pjchender.blogspot.com/2021/03/grpc-golang.html
+
+proto語法偵測:https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
