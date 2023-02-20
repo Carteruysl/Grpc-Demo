@@ -12,8 +12,13 @@ Grpc-Demo
 2.使用 BloomRPC，先匯入 proto 檔，就可以運行測試。
 
 參考資料
+
 https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/
+
 https://github.com/protocolbuffers/protobuf/releases
+
 https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/
+
 https://hoohoo.top/blog/mac-linux-windows-install-protocol-buffer-protobuf-compiler-way/
+
 https://github.com/bloomrpc/bloomrpc/releases
