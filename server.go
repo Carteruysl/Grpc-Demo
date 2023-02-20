@@ -30,14 +30,16 @@ func (s *server) GetNuts(ctx context.Context, req *pb.GetNutsRequest) (*pb.GetNu
 
 func main() {
 	flag.Parse()
+	// 設定要監聽的 port
 	lis, err := net.Listen("tcp", fmt.Sprintf(":%d", *port))
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
 	}
+	// 使用 gRPC 的 NewServer meethod 來建立 gRPC Server
 	s := grpc.NewServer()
 	pb.RegisterPokerServer(s, &server{})
 	log.Printf("server listening at %v", lis.Addr())
-	// Register reflection service on gRPC server.
+	// 在 gRPC 伺服器上註冊反射服務。
 	reflection.Register(s)
 	if err := s.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %v", err)
