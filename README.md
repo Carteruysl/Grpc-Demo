@@ -13,14 +13,14 @@ Grpc-Demo
 
 參考資料
 
-https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/
 
-https://github.com/protocolbuffers/protobuf/releases
 
-https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/
+Protocol Buffers:https://github.com/protocolbuffers/protobuf/releases
 
-https://hoohoo.top/blog/mac-linux-windows-install-protocol-buffer-protobuf-compiler-way/
+windows安裝:https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/
 
-https://github.com/bloomrpc/bloomrpc/releases
+Mac:https://hoohoo.top/blog/mac-linux-windows-install-protocol-buffer-protobuf-compiler-way/
 
-https://pjchender.blogspot.com/2021/03/grpc-golang.html
+bloomrpc GUI:https://github.com/bloomrpc/bloomrpc/releases
+
+gRPC 是什麼？以 Golang 進行示範與說明 :https://pjchender.blogspot.com/2021/03/grpc-golang.html
