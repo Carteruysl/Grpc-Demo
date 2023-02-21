@@ -11,6 +11,8 @@ Grpc-Demo
 
 2.使用 BloomRPC，先匯入 proto 檔，就可以運行測試。
 
+3.protoc --go_out=. --go-grpc_out=. file.proto
+
 參考資料
 
 
